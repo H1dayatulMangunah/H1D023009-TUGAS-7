@@ -92,7 +92,72 @@ Side menu dibuat reusable dengan widget AppDrawer.
 Data pengguna (username) ditampilkan kembali di beberapa halaman (home dan profil) sebagai bukti penggunaan local storage.
 Ada halaman pengaturan dengan contoh fitur tambahan (mode belajar fokus) yang bisa dikembangkan lebih lanjut.
 
-#Dokumentasi
-![Login](assets/login.png)
 
 
+# ** Screenshot Aplikasi (Dokumentasi)**
+
+Berikut tampilan aplikasi sesuai hasil implementasi tugas:
+
+---
+
+### 🔐 **Login Screen**
+![Login Screen](assets/login.png)
+
+---
+
+### 🏠 **Dashboard**
+![Dashboard](assets/dashboard.png)
+
+---
+
+### 👤 **Profile**
+![Profile](assets/profile.png)
+
+---
+
+### ⚙ **Settings**
+![Settings](assets/setting.png)
+
+---
+
+## 🧩 Penjelasan Fitur Utama
+
+### 🔐 Login System
+- Username dan password divalidasi
+- Password default: **123456**
+- Menyimpan data login dan username ke SharedPreferences
+
+---
+
+### 📦 Local Storage (SharedPreferences)
+Data yang disimpan:
+- `is_logged_in`
+- `username`
+
+---
+
+### 🎨 Drawer Navigation
+Menu Drawer:
+- Dashboard  
+- Profil  
+- Pengaturan  
+- Logout
+
+Logout akan membersihkan status login.
+
+---
+
+### 🧭 Routes
+Didefinisikan pada file `routes.dart`:
+- `/login`
+- `/home`
+- `/profile`
+- `/settings`
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. Clone repo:
+```bash
+git clone https://github.com/H1dayatulMangunah/H1D023009-TUGAS-7.git
