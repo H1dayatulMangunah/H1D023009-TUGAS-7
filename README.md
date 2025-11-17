@@ -91,3 +91,8 @@ Login menggunakan validasi custom dan error message di dalam card.
 Side menu dibuat reusable dengan widget AppDrawer.
 Data pengguna (username) ditampilkan kembali di beberapa halaman (home dan profil) sebagai bukti penggunaan local storage.
 Ada halaman pengaturan dengan contoh fitur tambahan (mode belajar fokus) yang bisa dikembangkan lebih lanjut.
+
+#Dokumentasi
+![Login](assets/login.png)
+
+
